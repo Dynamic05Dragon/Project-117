@@ -1,0 +1,19 @@
+body{
+    background-color: beige;
+}
+
+#score{
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+}
+
+#timer{
+    margin: 10px;
+    font-size: 20px;
+    float: right;
+}
+
+#sketch{
+    color: chocolate;
+}
