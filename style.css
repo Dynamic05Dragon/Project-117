@@ -1,19 +1,32 @@
 body{
-    background-color: beige;
+    background-color: bisque;
 }
 
-#score{
-    margin: 10px;
-    font-size: 20px;
-    float: left;
+h1{
+    color: brown;
+    background-color: blanchedalmond;
 }
 
-#timer{
-    margin: 10px;
-    font-size: 20px;
+#show_sketch{
     float: right;
+    margin-right: 10px;
 }
 
-#sketch{
-    color: chocolate;
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes example{
+    from{box-shadow: 2px 2px 50px lightgoldenrodyellow;}
+    to{box-shadow: 2px 2px 50px lightblue;}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 20px;
 }
